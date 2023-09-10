@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .container {
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+    
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    </style>
+
+<head>
+  <title>task4</title>
+
+  <h1> Html forms </h1>
+<form>
+    <label for=""> Full Name: </label>
+    <input type="text" id="Full name"/> 
+    <br/> <br />
+    <label for=""> User Name: </label>
+    <input type="text" id="User name"/> 
+    <br/><br/>
+    <label for="">Password: </label>
+    <input type="password" />
+    <br/><br/>
+    <label for="">Re Password: </label>
+    <input type="password"/>
+    <br/><br/>
+    <label for=""> address: </label>
+    <input type="text" id="address"/> 
+    <br/><br/>
+    <label for="">age: </label>
+    <input type="text" id="age"> 
+    <br/><br/>
+    <label for=""> gender: </label>
+    <select id="gender">
+        <option id="Male"> Male</option>
+        <option id="Female"> Female</option>
+        <option id="others">Others</option>
+    <br/><br/>
+    
+    <button type="button" onclick= "Save"> </button>
+    <div class="container">
+      <div class="vertical-center">
+        <button>Save</button>
+      </div>
+    </div>
+</form>
+</head>
